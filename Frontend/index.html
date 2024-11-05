@@ -1,0 +1,45 @@
+>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabalho Deploy</title>
+</head>
+
+<body>
+    <main>
+        <h1>Cadastro</h1>
+        <form>
+            <div class="grupoForm">
+                <label>CPF</label>
+                <input type="text" id="cpfUsuario" required placeholder="Digite aqui seu CPF">
+            </div>
+            <div class="grupoForm">
+                <label>Nome de Usuário</label>
+                <input type="text" id="nomeUsuario" required placeholder="Digite seu usuário desejado">
+            </div>
+            <div class="grupoForm">
+                <label>E-mail</label>
+                <input type="email" id="emailUsuario" required placeholder="Digite seu e-mail desejado">
+            </div>
+            <div class="grupoForm">
+                <label>Senha</label>
+                <input type="password" id="password" required placeholder="Digite sua senha desejada">
+            </div>
+            <div id="botãoCadastrar">
+                <button onclick="cadastrar(event)" type="submit">Cadastrar</button>
+
+            </div>
+        </form>
+
+
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
